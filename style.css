@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800|Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800|Yeseva+One&display=swap");
+
+body {
+  font-family: "Yeseva One", cursive;
+  font-weight: normal;
+  font-style: normal;
+}
+
+a,
+.button,
+button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:focus,
+.button:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+a,
+button {
+  outline: medium none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Yeseva One", cursive;
+  color: #191d34;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.88;
+  color: #5c5c5c;
+  margin-bottom: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.overlay {
+  position: relative;
+  z-index: 0;
+}
+
+.overlay::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.overlay2 {
+  position: relative;
+  z-index: 0;
+}
+
+.overlay2::before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.38;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+@media (max-width: 767px) {
+  .pt-120 {
+    padding-top: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pt-120 {
+    padding-top: 100px;
+  }
+}
+
+.boxed-btn {
+  background: #fff;
+  color: #8f8426 !important;
+  display: inline-block;
+  padding: 15px 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #8f8426;
+  text-transform: capitalize;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+  .boxed-btn {
+    font-size: 15px;
+  }
+}
+
+.boxed-btn:hover {
+  background: #8f8426;
+  color: #fff !important;
+  border: 1px solid #8f8426;
+}
+
+.boxed-btn:focus {
+  outline: none;
+}
+
+.boxed-btn3 {
+  color: #222222;
+  display: inline-block;
+  padding: 13px 44px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+
+.boxed-btn3:hover {
+  background: #8f8426;
+  color: #fff;
+}
+
+.boxed-btn3:focus {
+  outline: none;
+}
+
+.boxed-btn3.large-width {
+  width: 220px;
+}
+
+.mb-55 {
+  margin-bottom: 55px;
+}
+
+@media (max-width: 767px) {
+  .mb-55 {
+    margin-bottom: 40px;
+  }
+}
+
+.slider_bg_1 {
+  background-image: url(./library.jpg);
+}
+
+.slider_area .single_slider {
+  height: 742px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (max-width: 767px) {
+  .slider_area .single_slider {
+    height: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider_area .single_slider {
+    height: 700px;
+  }
+}
+
+.slider_area .single_slider .slider_text > span {
+  text-transform: capitalize;
+  font-size: 26px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+}
+
+.slider_area .single_slider .slider_text h3 {
+  color: #fff;
+  font-family: "Yeseva One", cursive;
+  font-size: 84px;
+  margin-top: 6px;
+  margin-bottom: 9px;
+  line-height: 1.14;
+}
+
+@media (max-width: 767px) {
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 55px;
+  }
+}
+
+.slider_area .single_slider .slider_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
+  }
+}
+
+.footer {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #f3fcf8;
+  position: relative;
+  z-index: 0;
+}
+
+.footer .copy-right_text {
+  padding-bottom: 32px;
+}
+
+.footer .copy-right_text .copy_right {
+  font-size: 14px;
+  color: #7a7b7c;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.footer .copy-right_text .copy_right a {
+  color: #8f8426;
+}
+
+.bordered_1px {
+  border-top: 1px solid rgba(60, 199, 143, 0.2);
+  padding-bottom: 30px;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.breadcam_bg {
+  background-image: url(./userregistration.jpg);
+}
+
+.bradcam_area {
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.bradcam_area.overlay::before {
+  background: black;
+  opacity: 0.4;
+}
+
+.bradcam_area h3 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+  .bradcam_area h3 {
+    font-size: 35px;
+  }
+}
+
+.bradcam_area p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.bradcam_area p a {
+  color: #fff;
+}
+
+.bradcam_area p a:hover {
+  color: #fff;
+}
+
+.contact-title {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-contact .form-group {
+  margin-bottom: 30px;
+}
+
+.form-contact .form-control {
+  border: 1px solid #e5e6e9;
+  border-radius: 0px;
+  height: 48px;
+  padding-left: 18px;
+  font-size: 13px;
+  background: transparent;
+}
+
+.form-contact .form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-contact .form-control::placeholder {
+  font-weight: 300;
+  color: #999999;
+}
+
+.form-contact textarea {
+  border-radius: 0px;
+  height: 100% !important;
+}
+
+.contact-section {
+  padding: 130px 0 100px;
+}
+
+@media (max-width: 991px) {
+  .contact-section {
+    padding: 70px 0 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .contact-section {
+    padding: 80px 0 50px;
+  }
+}
+
+.inherit,
+.inherit:hover {
+  color: inherit;
+}
+
+.main-header {
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+  font-weight: 550;
+  background: #8f8426;
+  border-radius: 10px;
+  padding: 1vw 2vw;
+  position: absolute;
+  z-index: 999;
+  left: 50px;
+  top: 25px;
+  bottom: auto;
+  right: 50px;
+}
+
+@keyframes stickynav {
+  from {
+    top: -90px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.main-header-sticky {
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+  font-weight: 550;
+  background: #8f8426;
+  border-radius: 10px;
+  padding: 1vw 2vw;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  animation: stickynav 1s;
+}
+
+.main-header-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: medium;
+  font-weight: 550;
+}
+
+.main-header-button:hover {
+  font-family: "Open Sans", sans-serif;
+  font-size: medium;
+  font-weight: 550;
+  background-color: #f8f9fa;
+  color: #8f8426;
+}
+
+.dark-hover:hover {
+  color: #2a2a2a !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .main-header-button {
+    margin: 0.5rem 0;
+  }
+}
+
+.custom-file-input:hover,
+.date:hover {
+  cursor: pointer;
+}
+
+.sample-text-area {
+  background: #fff;
+  padding: 100px 0 70px 0;
+}
+
+.text-heading {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
